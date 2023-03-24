@@ -1,0 +1,15 @@
+{
+    "baseUrl":"https://www.rdklu.com/",
+    "defaultCommandTimeout":6000,
+    "testFiles": "**/*.feature",
+
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,    
+    "inlineAssets": true
+  },
+  "video": false
+}
