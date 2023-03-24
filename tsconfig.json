@@ -1,13 +1,7 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "baseUrl": "../node_modules",
     "target": "es5",
-    "lib": ["es5", "dom"],
-    "types": ["cypress","node","cypress-xpath"],
+    "types": ["mocha","node"],
     "resolveJsonModule": true
   },
-  "include": [
-    "**/*.ts"
-, "cypress/support/commands.ts", "cypress/support/index.ts"  ]
 }

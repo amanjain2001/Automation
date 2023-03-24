@@ -1,0 +1,9 @@
+{
+    "aviationStackUrl":"http://api.aviationstack.com/v1/",
+    "getRequestEndPoint":"airports",
+    "accessKey":"?access_key=6cd6b4cb281af853029a95ac87a28588",
+    "reqresUrl":"https://reqres.in/",
+    "putRequestEndPoint":"api/users/2",
+    "deleteRequestEndPoint":"api/users/2",
+    "postRequestEndPoint":"api/users"
+}

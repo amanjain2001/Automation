@@ -1,33 +1,27 @@
-devDependencies:- 
-{
-    "@types/node": "^17.0.23",
-    "cypress": "^9.5.3",
-    "cypress-cucumber-preprocessor": "^4.3.1",
-    "typescript": "^4.6.3"
-}
+**dependencies**:- {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "jsonpath": "^1.1.1",
+    "mocha": "^9.2.2",
+    "request": "^2.88.2"
+  }
+
+**devDependencies**: {
+    "@types/mocha": "^9.1.1"
+  }
 
 Naming Conventions:-
 
-camelCase:- variableName, fileName, object
+**camelCase**:- variableName, object
 
-PascalCase:- ClassName
+**PascalCase**:- ClassName,
 
-**BDD**:- It is an agile software development methodology in which an application is documented so that techical and non-technical person can understand 
+To run:- npx mocha ./fileName.ts
 
-Command to run on browser :- npm run cy:open
+** GET** :- Method in HTTP protocol to request data.
 
-**fixtures**:- Cypress fixtures are added to maintain and hold the test data for automation
+**DELETE** :- Method in HTTP protocol to delete data.
 
-**integration**:- Cypress integration are used to write test scripts for automation.
+**POST** :- Method in HTTP protocol to send data.
 
-    **action**:- store all the functions for all pages
-
-    **expectedResults**:- stores all the expected results
-
-    **ui**:- stores all the main front-end tests
-
-**plugins**:- Cypress plugins enable us to tap into, modify, or extend the internal behavior of Cypress.
-
-**support**:- Cypress support enable us to put reusable behavior such as custom commands or global overrides.
-
-**cypress.json** :- Configuration file  of cypress
+**PUT**:- Method in HTTP protocol to update data.
